@@ -1,0 +1,14 @@
+MANIFEST.txt
+README.md
+outputs/aa_metrics.json
+outputs/charts/fpr_comparison.png
+outputs/charts/power_comparison.png
+outputs/cuped_metrics.json
+requirements.txt
+scripts/make_charts.py
+scripts/simulate_aa.py
+scripts/simulate_cuped.py
+src/experimentation/__init__.py
+src/experimentation/cuped.py
+src/experimentation/sequential.py
+tests/test_toolkit.py
