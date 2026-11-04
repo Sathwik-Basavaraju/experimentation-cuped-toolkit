@@ -1,0 +1,29 @@
+{
+  "n_tests": 10000,
+  "n_looks": 5,
+  "final_n_per_arm": 1000,
+  "alpha": 0.05,
+  "seed": 123,
+  "guardrail_threshold": -1.96,
+  "guardrails": 2,
+  "obf_boundaries": [
+    4.56,
+    3.23,
+    2.64,
+    2.33,
+    2.04
+  ],
+  "false_positive_rate": {
+    "naive_peeking": 0.1408,
+    "obf": 0.0475
+  },
+  "false_launch_rate_with_guardrails": {
+    "naive_peeking": 0.1335,
+    "obf": 0.045
+  },
+  "wrong_launches_per_10000_tests": {
+    "naive_peeking": 1335,
+    "obf": 450
+  },
+  "fewer_wrong_launches_per_10000_with_obf": 885
+}

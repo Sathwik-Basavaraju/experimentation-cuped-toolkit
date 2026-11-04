@@ -1,0 +1,24 @@
+{
+  "baseline_mean": 50.0,
+  "baseline_sd": 10.0,
+  "delta_absolute": 1.5,
+  "delta_relative": 0.03,
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "rho_target": 0.55,
+  "rho_observed_pooled": 0.5482,
+  "n_experiments": 2000,
+  "seed": 42,
+  "sample_size_per_arm_without_cuped": 698,
+  "sample_size_per_arm_with_cuped": 487,
+  "sample_size_reduction_fraction": 0.3023,
+  "sample_size_reduction_percent": 30.23,
+  "empirical_power_at_cuped_n": {
+    "naive": 0.659,
+    "cuped": 0.8045
+  },
+  "empirical_power_at_full_n": {
+    "naive": 0.8025,
+    "cuped": 0.9225
+  }
+}
